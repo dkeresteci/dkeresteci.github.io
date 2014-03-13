@@ -3,158 +3,139 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Foundation</title>
+    <title>Working...HomePage</title>
     <link rel="stylesheet" href="stylesheets/app.css" />
+    <link rel="stylesheet" href="stylesheets/custom.css" />
     <script src="bower_components/modernizr/modernizr.js"></script>
+    
+
+    <style type="text/css">
+      .main-box{
+        background: #085a78;
+      }
+
+      .myorbit li div{
+        display: block;
+        vertical-align: top;
+        line-height: normal; 
+        margin-left: 60px;
+        margin-top: 150px;
+        
+      }
+
+      #resume-link{
+        display: block;
+        float: right;
+        margin-top: 100px;
+        margin-right: 100px;
+        
+      }
+
+      .myorbit li div *{
+        color: #FFF;
+      }
+
+      #mcgillarts{
+        position: absolute;
+        right: 0px;
+        top: 50px;
+        height: 350px;
+       
+        z-index: -1;
+      }
+      .words{
+        position: absolute;
+        left: 0px;
+        top: 50px;
+        margin-left: 20px;
+        z-index: 0;
+      }
+
+      #cityskyline{
+        position: absolute;
+        top: 175px;
+        z-index: -1;
+
+      }
+
+    </style>
   </head>
   <body>
-    <div class="row">
-      <div class="large-12 columns">
-        <h1>Welcome to Foundation</h1>
-      </div>
-    </div>
-    
-    <div class="row">
-      <div class="large-12 columns">
-        <div class="panel">
-          <h3>We&rsquo;re stoked you want to try Foundation! </h3>
-          <p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
-          <p>Once you've exhausted the fun in this document, you should check out:</p>
-          <div class="row">
-            <div class="large-4 medium-4 columns">
-          <p><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</p>
-        </div>
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</p>
-            </div>
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://twitter.com/foundationzurb">@foundationzurb</a><br />Ping us on Twitter if you have questions. If you build something with this we'd love to see it (and send you a totally boss sticker).</p>
-            </div>        
-          </div>
-        </div>
-      </div>
-    </div>
 
-    <div class="row">
-      <div class="large-8 medium-8 columns">
-        <h5>Here&rsquo;s your basic grid:</h5>
-        <!-- Grid Example -->
+  <div class="row">
+    <div class="large-12 columns">
+      <h1>Site Header</h1>
+    </div>
+  </div> 
 
-        <div class="row">
-          <div class="large-12 columns">
-            <div class="callout panel">
-              <p><strong>This is a twelve column section in a row.</strong> Each of these includes a div.panel element so you can see where the columns are - it's not required at all for the grid.</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="large-6 medium-6 columns">
-            <div class="callout panel">
-              <p>Six columns</p>
-            </div>
-          </div>
-          <div class="large-6 medium-6 columns">
-            <div class="callout panel">
-              <p>Six columns</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
+<div class="main-box">
+<div class="row">
+  <ul class="myorbit" data-orbit>
+    <li >
+        <div>
+          <h1>Daniel Keresteci</h1>
+          <h3>homepage...</h3> 
         </div>
         
-        <hr />
-                
-        <h5>We bet you&rsquo;ll need a form somewhere:</h5>
-        <form>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-12.columns" />
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-4 medium-4 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-4.columns" />
-            </div>
-            <div class="large-4 medium-4 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-4.columns" />
-            </div>
-            <div class="large-4 medium-4 columns">
-              <div class="row collapse">
-                <label>Input Label</label>
-                <div class="small-9 columns">
-                  <input type="text" placeholder="small-9.columns" />
-                </div>
-                <div class="small-3 columns">
-                  <span class="postfix">.com</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Select Box</label>
-              <select>
-                <option value="husker">Husker</option>
-                <option value="starbuck">Starbuck</option>
-                <option value="hotdog">Hot Dog</option>
-                <option value="apollo">Apollo</option>
-              </select>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-6 medium-6 columns">
-              <label>Choose Your Favorite</label>
-              <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Radio 1</label>
-              <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Radio 2</label>
-            </div>
-            <div class="large-6 medium-6 columns">
-              <label>Check these out</label>
-              <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
-              <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Textarea Label</label>
-              <textarea placeholder="small-12.columns"></textarea>
-            </div>
-          </div>
-        </form>
-      </div>     
-
-      <div class="large-4 medium-4 columns">
-        <h5>Try one of these buttons:</h5>
-        <p><a href="#" class="small button">Simple Button</a><br/>
-        <a href="#" class="small radius button">Radius Button</a><br/>
-        <a href="#" class="small round button">Round Button</a><br/>            
-        <a href="#" class="medium success button">Success Btn</a><br/>
-        <a href="#" class="medium alert button">Alert Btn</a><br/>
-        <a href="#" class="medium secondary button">Secondary Btn</a></p>           
-        <div class="panel">
-          <h5>So many components, girl!</h5>
-          <p>A whole kitchen sink of goodies comes with Foundation. Checkout the docs to see them all, along with details on making them your own.</p>
-          <a href="http://foundation.zurb.com/docs/" class="small button">Go to Foundation Docs</a>          
-        </div>
+    </li>
+    <li>
+      <div>
+        <h1>Social &amp; Internet Connections</h1>
+        <p id="social">
+          Find me on <a href="https://www.facebook.com/dkeresteci">Facebook</a>, tweet me on <a href="https://twitter.com/dkeresteci">Twitter</a>, follow me on <a href="http://instagram.com/dkeresteci">Instagram</a>, pull my code from <a href="https://github.com/dkeresteci">Github</a> ask me something on <a href="http://www.quora.com/Daniel-Keresteci">Quora</a>, add me on <a href="https://plus.google.com/+DanielKeresteci/">Google Plus</a>, connect with me via <a href="http://www.linkedin.com/profile/view?id=116951883">Linkedin</a>...
+        </p>
       </div>
+    </li>
+    <li class="active">
+      <div>
+        <h1>Resume</h1>
+      </div>
+      <div id="resume-link">
+        <a href="#" class="button small">View .pdf</a>
+      </div>
+    </li>
+  </ul>
+</div>
+
+</div>  
+
+
+<div class="row content-block">
+  <div class="small-12 columns ">
+    <div class="words">
+      <h1>Telecommunications Professional</h1>
+      <h2>Engineer-in-Training</h2>
+      <h4>Graduate Engineering Leader Program - TELUS 2012-Present</h4>
     </div>
+    <img id="cityskyline" src="img/citysky1.jpg">
+  </div>
+</div>
+
+
+<div class="row content-block">
+  <div class="small-12 columns">
+    <div class="words">
+      <h1>Education</h1>
+      <h2>Bachlors of Engineering - Electrical</h2>
+      <h4> '12 McGill University, Montreal, Canada</h4>
+    </div>
+    <img id="mcgillarts"src="img/McGill_Artsbwpart.jpg">
+  </div>
+</div>
+
+
+<div class="row content-block">
+  <div class="medium-12 columns ">
+    <h1>Projects and Extra Stuff</h1>
+  </div>
+</div>
+
+
+  <div class="row">
+    <div class="medium-12 columns">
+      <h1>Site Footer</h1>
+    </div>
+  </div> 
 
     <script src="bower_components/jquery/jquery.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
